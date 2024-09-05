@@ -65,7 +65,7 @@ function Menu() {
           </li>
           <li>
             <Link to="/apps" onClick={() => handleMenuClick(5)}>
-              <p className={selectMenu === 5 ? activeMenuClass : menuClass}>About Me</p>
+              <p className={selectMenu === 5 ? activeMenuClass : menuClass}>About Mee</p>
             </Link>
           </li>
         </ul>
