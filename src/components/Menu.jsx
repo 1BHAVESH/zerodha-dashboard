@@ -1,6 +1,6 @@
 import React, {useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { hanndleSuccess } from "../../../frontend/src/utils";
+
 import {ToastContainer} from "react-toastify"
 
 function Menu() {
@@ -24,7 +24,7 @@ function Menu() {
   const handleLogout = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('loggedInUser');
-    hanndleSuccess("user logedout")
+    
     setTimeout(() => {
       window.location.href = 'http://localhost:5173/signup';
     }, 1000)
