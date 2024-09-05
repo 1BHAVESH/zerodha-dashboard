@@ -26,7 +26,7 @@ function Menu() {
     localStorage.removeItem('loggedInUser');
     
     setTimeout(() => {
-      window.location.href = 'http://localhost:5173/signup';
+      window.location.href = 'https://zeodha-frontend.vercel.app/signup';
     }, 1000)
   };
 
